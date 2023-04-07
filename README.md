@@ -1,6 +1,8 @@
 # lbmha_2019-2020
 Language Based Mental Health Assessments for 2019 and 2020 by County-Week 
 
+See the code used that analyzes the data in this repository at [wwbp/robust_spatiotemp](https://github.com/wwbp/robust_spatiotemp)
+
 ## `/data`
 Contains the generated 2019 and 2020 mental health scores generated in _Robust language-based mental health assessments in time and space through social media_.
 - `lbmha19to20.yw_cnty.csv`: scores for 2019 and 2020 measured directly from the Twitter data (does not include the 2019 adjustment)
