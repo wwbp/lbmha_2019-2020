@@ -5,7 +5,7 @@ See the code used that analyzes the data in this repository at [wwbp/robust_spat
 
 ## `/data`
 Contains the generated 2020 mental health scores generated in _Robust language-based mental health assessments in time and space through social media_. These scores control for 2019 findings.
-- `lbmha_yw_cnty.csv`: scores for 2019 and 2020 measured directly from the Twitter data (does not include the 2019 adjustment)
+- `lbmha_yw_cnty.csv`: scores for 2020 measured directly from the Twitter data (includes the 2019 adjustment)
   - `id` unique row identifier [0, 1, 2, ...]
   - `yearweek_cnty` concatenation of the year, week number (ISO format), and county (fips code)
 feat: either DEP_SCORE (depression) or ANX_SCORE (anxiety), derived from an adapted lexicon [2019_01:36091, 2020_52:22069]
