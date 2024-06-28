@@ -23,4 +23,4 @@ feat: either DEP_SCORE (depression) or ANX_SCORE (anxiety), derived from an adap
   - `date` The Wednesday of the ISO week
   - `date_range` Monday-Sunday of the ISO weeks
   - `yearweek` redundant column for easy sorting
-- `lbmha_yw_cnty_undifferenced.csv` depression and anxiety scores for 2019 and 2020 measured from Twitter data. This data does not include any correction for other years.
+- `lbmha_yw_cnty_undifferenced.csv` depression and anxiety scores for 2019 and 2020 measured from Twitter data. This data does not include any correction for other years. The data format is share from `lbmha_yw_cnty.csv`.`
