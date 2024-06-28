@@ -1,11 +1,11 @@
-# Language Based Mental Health Assessments for 2020 by County x Week 
-v1.0
+# Language Based Mental Health Assessments for 2019 and 2020 by County x Week 
+v1.0 data
 
 See the code used that analyzes the data in this repository at [wwbp/robust_spatiotemp](https://github.com/wwbp/robust_spatiotemp)
 
 ## `/data`
 Contains the generated 2020 mental health scores generated in _Robust language-based mental health assessments in time and space through social media_. These scores control for 2019 findings.
-- `lbmha_yw_cnty.csv`: scores for 2019 and 2020 measured directly from the Twitter data (does not include the 2019 adjustment)
+- `lbmha_yw_cnty.csv`: depression and anxiety scores for 2020 measured from Twitter data. This data controls for the 2019 data, so 2019 is not included in this file.
   - `id` unique row identifier [0, 1, 2, ...]
   - `yearweek_cnty` concatenation of the year, week number (ISO format), and county (fips code)
 feat: either DEP_SCORE (depression) or ANX_SCORE (anxiety), derived from an adapted lexicon [2019_01:36091, 2020_52:22069]
@@ -23,3 +23,4 @@ feat: either DEP_SCORE (depression) or ANX_SCORE (anxiety), derived from an adap
   - `date` The Wednesday of the ISO week
   - `date_range` Monday-Sunday of the ISO weeks
   - `yearweek` redundant column for easy sorting
+- `lbmha_yw_cnty_undifferenced.csv` depression and anxiety scores for 2019 and 2020 measured from Twitter data. This data does not include any correction for other years.
