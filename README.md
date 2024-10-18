@@ -1,7 +1,11 @@
 # Language Based Mental Health Assessments for 2019 and 2020 by County x Week 
 v1.0 data
 
-See the code used that analyzes the data in this repository at [wwbp/robust_spatiotemp](https://github.com/wwbp/robust_spatiotemp)
+Temporal measurements of well-being as described in [Mangalik et al., 2024](https://www.nature.com/articles/s41746-024-01100-0).
+
+See the code used that produces and analyzes the data in [wwbp/robust_spatiotemp](https://github.com/wwbp/robust_spatiotemp)
+
+Mangalik, S., Eichstaedt, J.C., Giorgi, S., Mun, J., Ahmed, F., Gill, G., V. Ganesan, A., Subrahmanya, S., Soni, N., Clouston, S.A. and Schwartz, H.A. (2024). [Robust language-based mental health assessments in time and space through social media](https://www.nature.com/articles/s41746-024-01100-0). <i>NPJ Digital Medicine, 7(1),</i> 109.
 
 ## `/data`
 Contains the generated 2020 mental health scores generated in _Robust language-based mental health assessments in time and space through social media_. These scores control for 2019 findings.
